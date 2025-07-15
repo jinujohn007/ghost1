@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Request a Quotation - fmservices.online</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+  <!-- Header -->
+  <header id="header">
+    <h1>Request for Quotation (RFQ)</h1>
+    <p>Fill out the form below to receive a tailored proposal for your facility.</p>
+  </header>
+
+  <!-- Main -->
+  <div id="main" class="wrapper style1">
+    <div class="inner">
+      <section>
+        <form method="POST" action="https://formsubmit.co/your@email.com">
+          <div class="row gtr-uniform">
+            <div class="col-6 col-12-xsmall">
+              <input type="text" name="name" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <input type="email" name="email" id="email" placeholder="Your Email" required />
+            </div>
+            <div class="col-12">
+              <input type="text" name="company" id="company" placeholder="Company Name" required />
+            </div>
+            <div class="col-12">
+              <textarea name="services" id="services" placeholder="Requested Services (e.g. Elevator + Water Testing)" rows="4" required></textarea>
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <select name="site_visit" id="site_visit">
+                <option value="">Need a Site Visit?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <select name="multiple_proposals" id="multiple_proposals">
+                <option value="">Need Multiple Proposals?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <input type="text" name="timeline" id="timeline" placeholder="Preferred Timeline (e.g. within 7 days)" />
+            </div>
+            <div class="col-12">
+              <ul class="actions">
+                <li><input type="submit" value="Submit RFQ" class="primary" /></li>
+                <li><input type="reset" value="Reset" /></li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p class="copyright">&copy; 2025 fmservices.online — All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
